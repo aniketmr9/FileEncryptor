@@ -8,7 +8,7 @@ Encrypts any text file which can be opened in notepad
 1.Encryption string is converted into an array of integer corresponding to its index in English alphabet.  
   Eg -> Encryption string "hello" will be converted to integer array : [7,4,11,11,14] as h -> 7th index, e -> 4th index and so on.  
 2.Index of each character in the message is added with the index in integer array generated above. Once the integer array is exhausted it   starts again from index 0.  
-  Eg -> If Message is "Hi, how are you?" and encryption string is "hello" encryption will be as follows  
+  Eg -> If Message in file is "Hi, how are you?" and encryption string is "hello" encryption will be as follows  
   Hello -> [7,4,11,11,14]  
   Hi, how are you? -> 7|8|,| |7|14|22| |0|17|4| |24|14|20|?|  
   7+7 -> 14 -> O  
