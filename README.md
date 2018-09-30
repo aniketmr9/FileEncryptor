@@ -29,6 +29,8 @@ Encrypts any text file which can be opened in notepad
   ? -> ?  
   Encrypted Message : Om, szk hvp jcb?  
   
-  Note that same alphabets don't get converted into same encrypted character.
+  Note:  
+  Same alphabets don't get converted into same encrypted character.  
+  This encryption technique only works on lower and upper case English alphabets.
 # Decryption Technique:
 Similar to encryption, only differece is that the integer array generated from the decyption string is subtracted element by element from each corresponding index of character in encrypted string.
